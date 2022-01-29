@@ -1,0 +1,146 @@
+* {
+    font-family: 'Arial', 'Helvetica', 'sans-serif';
+}
+body {
+    background-color: #1a1c1d;;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.flex-end {
+    justify-content: flex-end;
+}
+
+/*      HEADER       */
+header {
+    background-color: #1a1c1d;
+} 
+
+nav ul {
+    display: flex;
+    align-items: center;
+    
+}
+.menu nav ul li {
+    margin-right: 15px;
+    list-style: none;
+}
+.menu nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/*          GERAL            */
+#geral {
+    background-color: #1a1c1d;
+    height: 799px;
+}
+
+section .container {
+    /* align-items: center; */
+}
+
+
+.img-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+}
+
+.img-area img {
+    max-height: 150px;
+}
+/*      INPUT        */
+form {
+    width: 543px;
+}
+.inputDado {
+    display: flex;
+    align-items: center;
+    border: 1px solid #5f6368;
+    border-radius: 24px;
+}
+input[type="search"] {
+    width: 447px;
+    height: 34px;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+}
+
+.inputDado img {
+    width: 24px;
+    height: 24px;
+    margin: 5px;
+}
+
+.form-search {
+    margin: 20px;
+}
+
+.inputDado center {
+    margin: 23px;
+}
+
+center {
+    margin-top: 30px;
+}
+
+input[type=submit] {
+    padding: 10px 16px;
+    margin: 5px;
+    background-color: #303134;
+    color: #fff;
+    border: 1px solid #303134;
+    border-radius: 5px;   
+}
+
+input[type=submit]:hover {
+    border: 1px solid #fff;
+}
+
+.title-bellow-form {
+    color: #fff;
+}
+.title-bellow-form a {
+    text-decoration: none;
+    color: #8ab4f8;;
+}
+
+/*      FOOTER       */
+
+footer .widget1  {
+    color: #9aa0a6;
+} 
+footer .widget1 h5 {
+padding: 0 15px;
+}
+
+footer li {
+    list-style: none;
+    padding: 0 15px;
+} 
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+footer a {
+    color: #9aa0a6;
+    text-decoration: none;
+}
+footer .widget-area {
+    display: flex;
+    justify-content: space-between;
+}
+.boder-bottom-footer {
+    border-bottom: 1px  solid #212327;
+}
+
+footer .widget-area, .widget1 {
+    background-color: #171717; 
+    /* color: #9aa0a6; */
+} 
