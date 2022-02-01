@@ -1,0 +1,18 @@
+header .container {
+    /* justify-content: flex-start; */
+    align-items:center ;
+}
+
+.logo-area img  {
+    height: 30px;
+    width: 92px;
+    margin: 12px;
+}
+.space-around{
+    display: flex;
+    justify-content: space-around;
+}
+.inputtop {
+    display: flex;
+    align-items: center;
+}
