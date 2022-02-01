@@ -2,15 +2,19 @@ header .container {
     justify-content: space-between;
     align-items:center ;
 }
-
+.logo-area {
+    padding: 0 31px;
+    width: 10%;
+}
 .logo-area img  {
     height: 30px;
     width: 92px;
-    margin: 12px;
+    
 }
 .space-around{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 90%;
 }
 .inputtop {
     display: flex;
