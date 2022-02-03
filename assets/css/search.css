@@ -16,7 +16,14 @@ header .container {
     justify-content: space-between;
     width: 90%;
 }
+.inputtop form {
+    width: 600px;
+}
 .inputtop {
     display: flex;
     align-items: center;
+}
+
+.inputDado {
+    justify-content: flex-end;
 }
