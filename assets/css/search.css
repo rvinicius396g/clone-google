@@ -28,6 +28,7 @@ header .container {
 
 .inputDado {
     justify-content: flex-end;
+<<<<<<< HEAD
 }
 
 /* MENU 2 */
@@ -63,4 +64,6 @@ article .sidebar {
 .search-results p {
     margin: 10px 0;  
 
+=======
+>>>>>>> 6c96e9878eaefa46e1517bb068a2e896f930e281
 }
