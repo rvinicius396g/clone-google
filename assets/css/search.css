@@ -28,4 +28,42 @@ header .container {
 
 .inputDado {
     justify-content: flex-end;
+<<<<<<< HEAD
+}
+
+/* MENU 2 */
+.menu2 nav ul {
+    display: flex;
+    align-items: center;
+    
+}
+.menu2 nav ul li {
+    margin-right: 15px;
+    list-style: none;
+}
+.menu2 nav ul li a {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+} 
+
+/*          CONTAINER            */
+.line_div {}
+.container {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px; 
+}
+article .results {
+    flex: 2;
+}
+article .sidebar {
+    flex: 1;
+} 
+.search-results p {
+    margin: 10px 0;  
+
+=======
+>>>>>>> 6c96e9878eaefa46e1517bb068a2e896f930e281
 }
